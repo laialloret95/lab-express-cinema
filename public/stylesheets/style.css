@@ -68,3 +68,21 @@ img {
   padding: 20px;
   align-items: center;
 }
+
+/* SINGLE MOVIE PAGE */
+
+.movie-detail-container {
+  display: flex;
+  align-items: center;
+}
+
+.img-container {
+  margin: 20px
+}
+
+
+.single-movie-info-container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
