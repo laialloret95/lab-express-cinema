@@ -10,6 +10,11 @@ a {
   color: #00B7FF;
 }
 
+img {
+  max-width: 200px;
+  height: auto;
+}
+
 /* HOME PAGE */
 .bg-img{
   background-image: url('/images/cinema.jpg');
@@ -44,4 +49,22 @@ a {
   text-align: center;
   padding: 20px;
   width: max-content
+}
+
+/* MOVIES PAGE */
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.single-movie-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  width: 30%;
+  padding: 20px;
+  align-items: center;
 }
